@@ -10,6 +10,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.white-color {
+    color: #fff;
+}
+
+.grey-color {
+    color: rgb(173, 173, 173);
+}
+
 /* Sezione header */
 
 header {
@@ -73,6 +81,15 @@ header {
     display: none;
 }
 
+.side-menu ul {
+    text-decoration: none;
+}
+
+.side-menu ul li a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
 
 /* Sezione Nav Bar */ 
 
@@ -115,10 +132,6 @@ footer {
     #sidebar {
         width: 50px;
     }
-    
-    .logo {
-        text-align: center;
-    }
 
     .big-logo {
         display: none;
@@ -127,6 +140,11 @@ footer {
     .small-logo {
         display: block;
         margin-top: 10px;
+    }
+
+    .side-menu i {
+        font-size: 20px;
+        margin-left: 5px;
     }
 
     span {
