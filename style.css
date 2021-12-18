@@ -48,7 +48,7 @@ header {
 /* Sezione Sidebar */
 
 #sidebar {
-    width: 200px;
+    width: 250px;
     height: 1000px;
     background-color: rgb(0, 0, 0);
     position: fixed;
@@ -61,8 +61,8 @@ header {
 
 .side-menu {
     font-size: 25px;
-    margin: 10px 0px 0px 10px;
-    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .big-logo {
@@ -83,13 +83,49 @@ header {
 
 .side-menu ul {
     text-decoration: none;
+    margin-left: 20px;
 }
 
 .side-menu ul li a {
     font-size: 15px;
+    font-weight: bold;
     text-decoration: none;
 }
 
+.playlist {
+    line-height: 25px;
+}
+
+.playlist h4 {
+    margin-left: 20px;
+}
+
+.playlist-creation {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.playlist-creation i {
+    font-size: 40px;
+}
+
+.playlist-creation a {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+}
+
+.list-names ul {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.list-names ul li a {
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    font-size: 15px;
+}
 
 /* Sezione Nav Bar */ 
 
@@ -144,10 +180,14 @@ footer {
 
     .side-menu i {
         font-size: 20px;
-        margin-left: 5px;
+        margin: auto;
     }
 
-    span {
+    .side-menu span {
+        display: none;
+    }
+
+    .playlist {
         display: none;
     }
 }
