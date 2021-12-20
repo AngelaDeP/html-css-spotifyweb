@@ -182,6 +182,8 @@ header {
     height: 100vh;
     float: left;
     background-color: #141922;
+    overflow-y: auto;
+    margin-bottom: 80px;
 }
 
 /* Sezione Nav Bar */ 
@@ -252,6 +254,40 @@ header {
     font-size: 14px;
     font-weight: bold;
 }
+
+.most-listened-list {
+    margin-top: 80px;
+}
+
+.most-listened-list p {
+    color: rgb(173, 173, 173);
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.most-listened-container .singular-song {
+    margin-right: 25px;
+    flex-wrap: wrap;
+}
+
+.famous-artists p {
+    color: rgb(173, 173, 173);
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.famous-artists-container .singular-song {
+    margin-right: 25px;
+    flex-wrap: wrap;
+}
+
+.famous-artists img {
+    border-radius: 50%;
+}
+
+
 
 
 /* Sezione footer */
