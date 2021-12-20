@@ -59,7 +59,7 @@ header {
 
 #sidebar {
     width: 250px;
-    height: 1000px;
+    height: 100vh;
     background-color: rgb(0, 0, 0);
     float: left;
     left: 0;
@@ -179,7 +179,7 @@ header {
 
 .container {
     width: calc(100% - 250px);
-    height: 1000px;
+    height: 100vh;
     float: left;
     background-color: #141922;
 }
@@ -210,6 +210,47 @@ header {
     text-decoration: none;
     font-weight: bold;
     font-size: 13px;
+}
+
+/*Sezione Recently-played List */
+
+.played-list {
+    margin-left: 25px;
+}
+
+.played-list h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.song-container {
+    justify-content: space-between;
+    margin-right: 25px;
+    flex-wrap: wrap;
+}
+
+.singular-song {
+    text-align: center;
+    width: 250px;
+    height: 300px;
+}
+
+.singular-song img {
+    width: 250px;
+    height: auto;
+}
+
+.singular-song h3 {
+    font-size: 17px;
+    color: #fff;
+    margin: 5px 0px 5px 0px;
+}
+
+.singular-song span {
+    color: rgb(173, 173, 173);
+    font-size: 14px;
+    font-weight: bold;
 }
 
 
@@ -272,6 +313,7 @@ footer {
     
     #sidebar {
         width: 50px;
+        height: 100vh;
     }
 
     .big-logo {
