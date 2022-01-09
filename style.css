@@ -52,6 +52,10 @@ main {
     text-decoration: underline;
 }
 
+.button:hover {
+    transform: scale(1.1);
+}
+
 /* Sezione Top-Sidebar */
 
 #sidebar {
@@ -193,7 +197,7 @@ main {
 .button {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .button a {
@@ -406,8 +410,11 @@ footer {
     flex-direction: column;
 }
 
+.ft-buttons {
+    margin-bottom: 5px;
+}
 .ft-buttons a {
-    font-size: 23px;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
 }
@@ -498,6 +505,10 @@ footer {
     display: block;
 }
 
+.ft-center .fa-play-circle:hover {
+    transform: scale(1.5);
+}
+
 /* Regole Media-Query */
 
 @media screen and (max-width: 575px) {
@@ -547,6 +558,10 @@ footer {
 
     .songs-list li {
         width: calc(100% / 2);
+    }
+
+    .upgrade-fix {
+        width: calc(100% - 50px);
     }
 }
 
